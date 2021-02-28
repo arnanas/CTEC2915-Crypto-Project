@@ -9,12 +9,15 @@ def menu():
                 print("Would you like to Encrypt or Decrypt? (1 or 2)")
                 print("1. Encrypt")                    
                 print("2. Decrypt")
+                print("3. Quit")
                 print()
                 choice = int(input("Choice:"))
                 if choice == 1:
                     error = False
                 elif choice == 2:
                     error = False
+                elif choice == 3:
+                    quit()
             except:
                 error = True
                 print("Please try again")
